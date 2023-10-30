@@ -38,7 +38,7 @@ function HomePage() {
                                     variant="outline-light"
                                     className="mt-2"
                                 >
-                                    See more
+                                    View Books
                                 </Button>
                             </LinkContainer>
                         </Col>
