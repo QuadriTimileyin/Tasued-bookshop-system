@@ -55,6 +55,7 @@ function LoginPage() {
                     if (!data.message) {
                         setError(false);
                         localStorage.setItem("user_username", data.username);
+                        localStorage.setItem("user_email", data.email);
                         localStorage.setItem("user_id", data.id);
                         localStorage.setItem("user_role", data.role);
                         setShow(true);
@@ -84,7 +85,7 @@ function LoginPage() {
                     {loggedIn ? (
                         <>
                             <h3 className="main-title">You are logged in.</h3>
-                            <LinkContainer to="/">
+                            <LinkContainer to="/books">
                                 <Button variant="outline-danger">
                                     Go to Home page
                                 </Button>

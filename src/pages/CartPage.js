@@ -303,6 +303,7 @@ function CartPage() {
     const address = (
         <CustomerAddress
             placeOrder={placeOrder}
+            totalCartValue={totalCartValue}
             handleChangeAddress={handleChangeAddress}
             billingAddress={billingAddress}
             deliveryAddress={deliveryAddress}

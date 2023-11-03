@@ -54,7 +54,7 @@ function NavbarComponent(props) {
                                 width="60"
                                 height="60"
                             ></img>
-                            Tasued-BOOKSHOP
+                            TASUED-BOOKSHOP
                         </Navbar.Brand>
                     </LinkContainer>
                     {props.navStyle !== "simple" && (

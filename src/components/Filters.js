@@ -149,7 +149,7 @@ function Filters({ filters, setFilters, handleChange, handleReset }) {
                                             : false
                                     }
                                 />
-                                <label>Fantezie</label>
+                                <label>Fantasy</label>
                             </div>
                             <div className="filter-item">
                                 <input
@@ -165,7 +165,7 @@ function Filters({ filters, setFilters, handleChange, handleReset }) {
                                             : false
                                     }
                                 />
-                                <label>Fictiune</label>
+                                <label>Fiction</label>
                             </div>
                             <div className="filter-item">
                                 <input
@@ -182,7 +182,7 @@ function Filters({ filters, setFilters, handleChange, handleReset }) {
                                             : false
                                     }
                                 />
-                                <label>Afaceri si economie</label>
+                                <label>Economics</label>
                             </div>
                             <div className="filter-item">
                                 <input
@@ -199,7 +199,7 @@ function Filters({ filters, setFilters, handleChange, handleReset }) {
                                             : false
                                     }
                                 />
-                                <label>Filosofie</label>
+                                <label>Philosophy</label>
                             </div>
                             <div className="filter-item">
                                 <input
@@ -215,7 +215,7 @@ function Filters({ filters, setFilters, handleChange, handleReset }) {
                                             : false
                                     }
                                 />
-                                <label>Cultura</label>
+                                <label>Culture</label>
                             </div>
                             <div className="filter-item">
                                 <input
